@@ -36,7 +36,7 @@ def get_random():
     Rolls a 3-way dice to pick a random play.
     """
     return random.choice(['rock', 'paper', 'scissors'])
-
+#end of the function, now it's time to call it!
 print "Let's play rock-paper-scissors!"
 
 user_play = raw_input("Type rock/paper/scissors: ")
@@ -50,4 +50,4 @@ if result is None:
 elif result:
     print "You win!"
 else:
-    print "I win."
+    print "I win. You're horrible at this game!"
